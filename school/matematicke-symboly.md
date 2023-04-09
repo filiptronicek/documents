@@ -19,11 +19,11 @@ Filip Troníček
 [0 Citační styl a protokol pro poznámky pod čarou
 2](#citační-styl-a-protokol-pro-poznámky-pod-čarou)
 
-[**1 Úvod 3**](#úvod)
+[1 Úvod 3](#úvod)
 
-[**1.1 Cíl práce 3**](#cíl-práce)
+[1.1 Cíl práce 3](#cíl-práce)
 
-[**2 Jak jsme se sem dostali 4**](#jak-jsme-se-sem-dostali)
+[2 Jak jsme se sem dostali 4](#jak-jsme-se-sem-dostali)
 
 > [2.1 Řečnická doba matematické komunikace
 > 4](#řečnická-doba-matematické-komunikace)
@@ -34,16 +34,16 @@ Filip Troníček
 >
 > [2.2 Synkopická fáze 5](#synkopická-fáze)
 >
-> [2.2.1 Al-Khwārizmī a algebra 6](#al-khwārizmī-a-algebra)
+> [2.2.1 Al-Khwārizmī a algebra 5](#al-khwārizmī-a-algebra)
 >
 > [2.2.2 Indie a číslice 6](#indie-a-číslice)
 >
 > [2.2.3 Fibonacci a středověká Evropa
 > 6](#fibonacci-a-středověká-evropa)
 
-[**3 Analýza různých symbolů 6**](#analýza-různých-symbolů)
+[3 Analýza různých symbolů 7](#analýza-různých-symbolů)
 
-> [3.1 Typy symbolů 6](#typy-symbolů)
+> [3.1 Typy symbolů 7](#typy-symbolů)
 >
 > [3.1.1 Operátory aritmetiky 7](#operátory-aritmetiky)
 >
@@ -51,17 +51,30 @@ Filip Troníček
 >
 > [3.1.1.2 ·, ×, ÷, :, a / 7](#a)
 >
-> [3.2 Podobnosti symbolů teorie množin a výrokové logiky
-> 8](#podobnosti-symbolů-teorie-množin-a-výrokové-logiky)
+> [3.1.1.3 Ostatní aritmetické značky 8](#ostatní-aritmetické-značky)
+>
+> [3.1.2 Značky číselných vztahů 8](#značky-číselných-vztahů)
+>
+> [3.2 Značky logiky 9](#značky-logiky)
+>
+> [3.2.1 Podobnosti symbolů teorie množin a výrokové logiky
+> 9](#podobnosti-symbolů-teorie-množin-a-výrokové-logiky)
 
-[**4 LaTeX 8**](#latex)
+[4 LaTeX 10](#latex)
 
-[5 Závěr 8](#závěr)
+> [4.1 Původ a účel LaTeXu 10](#původ-a-účel-latexu)
+>
+> [4.2 Vlastnosti LaTeXu 10](#vlastnosti-latexu)
+>
+> [4.3 Výhody použití LaTeXu pro matematický zápis
+> 11](#výhody-použití-latexu-pro-matematický-zápis)
+
+[5 Závěr 11](#závěr)
 
 [6 Seznam použitých informačních zdrojů
-8](#seznam-použitých-informačních-zdrojů)
+11](#seznam-použitých-informačních-zdrojů)
 
-[7 Seznam příloh 12](#seznam-příloh)
+[7 Seznam příloh 16](#seznam-příloh)
 
 #   {#section .unnumbered}
 
@@ -129,9 +142,9 @@ ve vězení již strávili). ^\[příloha\ 1\]^
 Asi 2000 let př. n. l. začali obyvatelé tamější Mezopotámie zapisovat
 číslice tzv. klínopisem[^6]. Tento systém používá místo našich
 tradičních desíti číslic jenom dvě:
-![](media/image11.png){width="0.22058836395450568in"
+![](media/image5.png){width="0.22058836395450568in"
 height="0.20833333333333334in"}pro zápis jednotek a
-![](media/image24.png){width="0.22237423447069116in"
+![](media/image3.png){width="0.22237423447069116in"
 height="0.20833333333333334in"} pro zápis desítek, což dělá jejich zápis
 podstatně jednodušší na naučení^\[11\]\[12\]^. Pomocí těchto dvou číslic
 dokážeme zapsat číslo až 60^\[příloha\ 2\]^ (sexagesimální soustava),
@@ -139,39 +152,16 @@ přičemž se dají velmi jednoduše zapsat i čísla mnohem větší: pokud si
 čísla nějak oddělíme (čárkou, mezerou apod.), můžeme členy spočítat
 následujícím vzorcem:
 
-[![](media/image6.png){width="0.8055555555555556in"
-height="0.4583333333333333in"}![](media/image6.png){width="0.8055555555555556in"
+[![](media/image2.png){width="0.8055555555555556in"
+height="0.4583333333333333in"}![](media/image2.png){width="0.8055555555555556in"
 height="0.4583333333333333in"}](https://www.codecogs.com/eqnedit.php?latex=%5Csum_%7Bi%3D0%7D%5E%7Bn%7D%20d_i%20%5Ctimes%2060%5Ei#0)
 
-kde [![](media/image15.png){width="8.333333333333333e-2in"
-height="6.944444444444445e-2in"}](https://www.codecogs.com/eqnedit.php?latex=n#0)
-je nejvyšší pořadová hodnota pozice,
-[![](media/image23.png){width="0.1111111111111111in"
-height="0.1388888888888889in"}](https://www.codecogs.com/eqnedit.php?latex=d_i#0)
-je číslice na [![](media/image13.png){width="4.1666666666666664e-2in"
-height="0.1111111111111111in"}](https://www.codecogs.com/eqnedit.php?latex=i#0)-té
-pozici (přičemž pro nejpravější pozici platí, že
-[![](media/image16.png){width="0.3472222222222222in"
-height="0.1111111111111111in"}](https://www.codecogs.com/eqnedit.php?latex=i%3D0#0))
-a [![](media/image1.png){width="0.19444444444444445in"
-height="0.1388888888888889in"}](https://www.codecogs.com/eqnedit.php?latex=60%5Ei#0)
-představuje mocninu 60 přiřazenou této pozici. Kupříkladu sexagesimální
-číslo 1,35,25,30 lze vyjádřit
-jako:![](media/image15.png){width="8.333333333333333e-2in"
-height="6.944444444444445e-2in"} je nejvyšší pořadová hodnota pozice,
-![](media/image23.png){width="0.1111111111111111in"
-height="0.1388888888888889in"} je číslice na
-![](media/image13.png){width="4.1666666666666664e-2in"
-height="0.1111111111111111in"}-té pozici (přičemž pro nejpravější pozici
-platí, že ![](media/image16.png){width="0.3472222222222222in"
-height="0.1111111111111111in"}) a
-![](media/image1.png){width="0.19444444444444445in"
-height="0.1388888888888889in"} představuje mocninu 60 přiřazenou této
-pozici. Kupříkladu sexagesimální číslo 1,35,25,30 lze vyjádřit jako:
+kde $n$ je nejvyšší pořadová hodnota pozice, $d_{i}$ je číslice na
+$i$-té pozici (přičemž pro nejpravější pozici platí, že $i\  = \ 0$) a
+$60^{i}$ představuje mocninu 60 přiřazenou této pozici. Kupříkladu
+sexagesimální číslo 1, 35, 25, 30 lze vyjádřit jako:
 
-[![](media/image32.png){width="3.6805555555555554in"
-height="0.1527777777777778in"}![](media/image32.png){width="3.6805555555555554in"
-height="0.1527777777777778in"}](https://www.codecogs.com/eqnedit.php?latex=1%20%5Ctimes%2060%5E3%20%2B%2035%20%5Ctimes%2060%5E2%20%2B%2025%20%5Ctimes%2060%5E1%20%2B%2030%20%5Ctimes%2060%5E0%20%3D%20343530#0)[^7]
+$1\  \times \ 60^{3}\  + \ 35\  \times \ 60^{2}\  + \ 25\  \times 60^{1}\  + \ 30\  \times 60^{0}\  = \ 343\ 530$[^7]
 
 Tento vzorec vyjadřuje babylonskou sexagesimální poziční soustavu a lze
 jej použít k převodu libovolného sexagesimálního čísla na jeho dekadický
@@ -279,22 +269,16 @@ bodu (‱)^\[23\]^. ^\[22\]^
 #### Ostatní aritmetické značky
 
 Zbylé základní značky mocnin a odmocnin. Mocniny tak jak je značíme dnes
-(superskriptem jako [![](media/image25.png){width="0.1388888888888889in"
-height="0.1388888888888889in"}](https://www.codecogs.com/eqnedit.php?latex=x%5E2#0))
-začal používat René Descartes v díle *La Geometrie*
-(1637)[^15][^16]^\[18\]^.
+(superskriptem jako $x^{2}$) začal používat René Descartes v díle *La
+Geometrie* (1637)[^15][^16]^\[18\]^.
 
-Pro odmocňování používáme převážně značku
-[![](media/image4.gif){width="0.125in"
-height="0.16666666666666666in"}](https://latex-staging.easygenerator.com/eqneditor/editor.php?latex=%5Csqrt#0)[^17].
-Před ním se jako denotace odmocnin používalo písmeno **R** a když v roce
-1525 Christoph Rudolff použil poprvé znak
-[![](media/image4.gif){width="0.125in"
-height="0.16666666666666666in"}](https://latex-staging.easygenerator.com/eqneditor/editor.php?latex=%5Csqrt#0),
-bylo to bez vodorovné čáry nad odmocninovým obsahem[^18]^\[18\]^.
+Pro odmocňování používáme převážně značku $$[^17]. Před ním se jako
+denotace odmocnin používalo písmeno **R** a když v roce 1525 Christoph
+Rudolff použil poprvé znak $$, bylo to bez vodorovné čáry nad
+odmocninovým obsahem[^18]^\[18\]^.
 
 Znaménko pro "plus mínus",
-[![](media/image20.png){width="0.1111111111111111in"
+[![](media/image7.png){width="0.1111111111111111in"
 height="0.1111111111111111in"}](https://www.codecogs.com/eqnedit.php?latex=%5Cpm#0),
 vytvořil William Oughtred pro jeho spis *Clavis Mathematicae (1631)*.
 
@@ -305,31 +289,23 @@ Nejzákladnější znaménko z této kategorie je znaménko Tento symbol byl
 zveřejněn poprvé v roce 1557 a byl popsán Robertem Recordem jako "pár
 rovnoběžek".^\[24\]^
 
-Pro popsání jakékoliv nerovnosti používáme
-[![](media/image22.png){width="0.1111111111111111in"
-height="0.1527777777777778in"}](https://www.codecogs.com/eqnedit.php?latex=%5Cneq#0),
-pro nerovnost určující "není větší než" používáme
-[![](media/image19.png){width="9.722222222222222e-2in"
-height="0.1527777777777778in"}](https://www.codecogs.com/eqnedit.php?latex=%5Cngtr#0)
-(a opačné [![](media/image17.png){width="9.722222222222222e-2in"
-height="0.1527777777777778in"}](https://www.codecogs.com/eqnedit.php?latex=%5Cnless#0)).[^19][^20]
+Pro popsání jakékoliv nerovnosti používáme $\neq$, pro nerovnost
+určující "není větší než" používáme ≯ (a opačné ≮).[^19][^20]
 
-Za zmínku stojí samozřejmě i symboly pro větší než,
-[![](media/image9.png){width="9.722222222222222e-2in"
-height="8.333333333333333e-2in"}](https://www.codecogs.com/eqnedit.php?latex=%3E#0),
-větší nebo rovno [![](media/image29.png){width="9.722222222222222e-2in"
-height="0.125in"}](https://www.codecogs.com/eqnedit.php?latex=%5Cgeq#0),
-a jejich protějšky menší než,
-[![](media/image14.png){width="9.722222222222222e-2in"
-height="8.333333333333333e-2in"}](https://www.codecogs.com/eqnedit.php?latex=%3C#0)
-a menší nebo rovno,
-[![](media/image8.png){width="9.722222222222222e-2in"
-height="0.125in"}](https://www.codecogs.com/eqnedit.php?latex=%5Cleq#0).[^21]
+Za zmínku stojí samozřejmě i symboly pro větší než, ＞, větší nebo rovno
+≥, a jejich protějšky menší než, ＜ a menší nebo rovno, ≤.[^21]
 
 Při počítání s měřeními z reálného světa nebo komplexnějšími
-matematickými koncepty se často používá aproximace[^22]^\[25\]^.
+matematickými koncepty[^22] se často používá aproximace[^23]^\[25\]^. Ta
+se obecně značí znaménkem $\approx$, které značí, že si jsou dvě čísla
+skoro rovná[^24]. S aproximací souvisí i zaokrouhlování (≐), přičemž
+schválně snižujeme přesnost čísla pro jednodušší nakládání s ním[^25].
 
-## Podobnosti symbolů teorie množin a výrokové logiky
+### Značky logiky
+
+Pro logické výroky používáme v matematice logické značky.
+
+#### Podobnosti symbolů teorie množin a výrokové logiky
 
 Teorie množin a výroková logika jsou dva základní matematické obory,
 které se zabývají strukturami a způsoby, jak vyjadřovat a analyzovat
@@ -340,36 +316,90 @@ symbolu AND a OR.
 V teorii množin se tyto operace používají pro popis interakcí mezi
 množinami.
 
--   **Průnik** ([![](media/image31.png){width="8.333333333333333e-2in"
-    > height="9.722222222222222e-2in"}](https://www.codecogs.com/eqnedit.php?latex=%5Ccup#0)
-    > / AND): Průnik dvou množin A a B, značený jako A ∩ B, je množina
-    > obsahující všechny prvky, které jsou součástí jak množiny A, tak
-    > množiny B.
+-   **Průnik** ($\cap$ / AND): Průnik dvou množin A a B, značený jako A
+    > $\cap$ B, je množina obsahující všechny prvky, které jsou součástí
+    > jak množiny A, tak množiny B.
 
--   **Sjednocení**
-    > ([![](media/image27.png){width="8.333333333333333e-2in"
-    > height="9.722222222222222e-2in"}](https://www.codecogs.com/eqnedit.php?latex=%5Ccap#0)
-    > / OR): Sjednocení dvou množin A a B, značené jako A ∪ B, je
-    > množina obsahující všechny prvky, které jsou součástí alespoň
-    > jedné z množin A nebo B.
+-   **Sjednocení** ($\cup$ / OR): Sjednocení dvou množin A a B, značené
+    > jako A $\cup$ B, je množina obsahující všechny prvky, které jsou
+    > součástí alespoň jedné z množin A nebo B.
 
 Výroková logika, na druhou stranu, se zabývá vztahy mezi výroky
 (tvrzeními) a jejich pravdivostními hodnotami. Základní operace výrokové
 logiky zahrnují:
 
--   **Konjunkce**
-    > ([![](media/image28.png){width="8.333333333333333e-2in"
-    > height="9.722222222222222e-2in"}](https://www.codecogs.com/eqnedit.php?latex=%5Cwedge#0)
-    > / AND): Konjunkce dvou výroků p a q, značená jako p ∧ q, je
-    > pravdivá, pokud jsou pravdivé oba výroky p i q. Jinak je
-    > nepravdivá.
+-   **Konjunkce** ($\land$ / AND): Konjunkce dvou výroků p a q, značená
+    > jako $p\  \land q$, je pravdivá, pokud jsou pravdivé oba výroky p
+    > i q. Jinak je nepravdivá.
 
--   **Disjunkce** ([![](media/image2.png){width="8.333333333333333e-2in"
-    > height="9.722222222222222e-2in"}](https://www.codecogs.com/eqnedit.php?latex=%5Cvee#0)
-    > / OR): Disjunkce dvou výroků p a q, značená jako p ∨ q, je
-    > pravdivá, pokud je pravdivý alespoň jeden z výroků p nebo q.
+-   **Disjunkce** ($\vee$ / OR): Disjunkce dvou výroků p a q, značená
+    > jako $p\  \vee q$, je pravdivá, pokud je pravdivý alespoň jeden z
+    > výroků p nebo q.
 
 # LaTeX
+
+Digitální doba přinesla v oblasti matematického zápisu významný pokrok a
+inovace. Jedním z nejrozšířenějších nástrojů pro vytváření, formátování
+a prezentaci matematických výrazů a symbolů v digitálním prostředí je
+LaTeX. Cílem této kapitoly je proniknout do konceptu digitální notace se
+zaměřením na LaTeX, prozkoumat jeho vznik, funkce a výhody.
+
+## Původ a účel LaTeXu
+
+LaTeX je systém pro zápis vytvořený Leslie Lamportem na počátku 80. let
+20. století^\[29\]^. Je postaven na písmolijectví TeX, které navrhl
+Donald Knuth s cílem vytvářet dokumenty profesionální kvality, které
+dodržují nejvyšší typografické standardy.^\[28\]^ LaTeX byl speciálně
+navržen pro zpracování složitých matematických zápisů a měl autorům
+usnadnit vytváření dobře formátovaných dokumentů, zejména těch, které
+obsahují značné množství matematických symbolů a výrazů.
+
+##  Vlastnosti LaTeXu
+
+LaTeX je v podstatě značkovací jazyk, který uživatelům umožňuje vytvářet
+dokumenty s vysokou úrovní kontroly nad formátováním a prezentací. Mezi
+jeho klíčové vlastnosti patří např:
+
+a.  Syntaxe založená na příkazech: LaTeX používá řadu příkazů k
+    > definování prvků v dokumentu. Příkazy obvykle začínají zpětným
+    > lomítkem (\\), za kterým následuje název příkazu a volitelné
+    > parametry uzavřené v hranatých závorkách nebo kulatých závorkách.
+    > Například $$ jde v LaTeXu zapsat jako \\sqrt{2}.
+
+b.  Modulární struktura: Dokumenty LaTeXu jsou uspořádány do logických
+    > jednotek nazývaných prostředí, které jsou definovány pomocí
+    > dvojice příkazů (\\begin a \\end). Tato modulární struktura
+    > umožňuje lepší organizaci a snadnější správu složitých dokumentů.
+
+c.  Balíčky a makra: Uživatelé mohou vytvářet vlastní makra nebo
+    > importovat existující balíčky a rozšiřovat tak funkčnost LaTeXu,
+    > díky čemuž je vysoce přizpůsobitelný a přizpůsobitelný různým
+    > potřebám. Toto umožňuje uživatelům LaTeXu zapisovat nejen
+    > matematiku, ale i složité chemické sloučeniny[^26] nebo elektrické
+    > obvody[^27].
+
+d.  Správa bibliografie: LaTeX nabízí účinné nástroje pro správu
+    > bibliografických odkazů a citací, včetně systémů BibTeX a
+    > BibLaTeX.^\[27\]^
+
+##  Výhody použití LaTeXu pro matematický zápis
+
+LaTeX nabízí oproti tradičním textovým procesorům několik výhod, pokud
+jde o práci s matematickým zápisem:
+
+a.  Přesnost a konzistence: Syntaxe LaTeXu založená na příkazech
+    > umožňuje přesnou a konzistentní kontrolu nad formátováním a
+    > prezentací matematických výrazů.
+
+b.  Profesionální vzhled: LaTeX vytváří vysoce kvalitní výstupy, které
+    > splňují přísné typografické standardy profesionálních publikací.
+
+c.  Škálovatelnost: Dokumenty LaTeXu lze snadno převádět do různých
+    > formátů, například PDF, HTML a XML, což usnadňuje sdílení a
+    > publikování práce.
+
+d.  Spolupráce: Soubory LaTeX jsou prosté textové dokumenty, což
+    > zjednodušuje spolupráci a kontrolu revizí.
 
 # Závěr
 
@@ -416,17 +446,23 @@ případně navrhuje další možnosti práce s tématem.
     > mathematics. Wikipedia; Wikimedia Foundation.
     > [[https://en.wikipedia.org/wiki/Ancient_Egyptian_mathematics]{.underline}](https://en.wikipedia.org/wiki/Ancient_Egyptian_mathematics)
 
-6.  [[Glossary of mathematical symbols -
-    > Wikipedia]{.underline}](https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols)
+6.  Wikipedia contributors. (2023, March 27). Glossary of mathematical
+    > symbols. In *Wikipedia, The Free Encyclopedia*. Retrieved 19:17,
+    > April 9, 2023, from
+    > [[https://en.wikipedia.org/w/index.php?title=Glossary_of_mathematical_symbols&oldid=1146912113]{.underline}](https://en.wikipedia.org/w/index.php?title=Glossary_of_mathematical_symbols&oldid=1146912113)
 
-7.  [[Timeline of mathematics -
-    > Wikipedia]{.underline}](https://en.wikipedia.org/wiki/Timeline_of_mathematics)
+7.  Wikipedia contributors. (2023, April 9). Timeline of mathematics. In
+    > *Wikipedia, The Free Encyclopedia*. Retrieved 19:18, April 9,
+    > 2023, from
+    > [[https://en.wikipedia.org/w/index.php?title=Timeline_of_mathematics&oldid=1148958986]{.underline}](https://en.wikipedia.org/w/index.php?title=Timeline_of_mathematics&oldid=1148958986)
 
-8.  [[Tally marks -
-    > Wikipedia]{.underline}](https://en.wikipedia.org/wiki/Tally_marks)
+8.  Wikipedia contributors. (2023, April 5). Tally marks. In *Wikipedia,
+    > The Free Encyclopedia*. Retrieved 19:19, April 9, 2023, from
+    > [[https://en.wikipedia.org/w/index.php?title=Tally_marks&oldid=1148299491]{.underline}](https://en.wikipedia.org/w/index.php?title=Tally_marks&oldid=1148299491)
 
-9.  [[Matematika --
-    > Wikipedie]{.underline}](https://cs.wikipedia.org/wiki/Matematika)
+9.  Matematika. (19. 11. 2022). *Wikipedie: Otevřená encyklopedie*.
+    > Získáno 19:20, 9. 04. 2023 z
+    > [[https://cs.wikipedia.org/w/index.php?title=Matematika&oldid=21909601]{.underline}](https://cs.wikipedia.org/w/index.php?title=Matematika&oldid=21909601).
 
 10. [[MASARYKOVA UNIVERZITA Historie matematiky ve vztahu k vyučování
     > matematiky na 2. stupni
@@ -445,20 +481,9 @@ případně navrhuje další možnosti práce s tématem.
     > numerals*. Maths History.
     > [[https://mathshistory.st-andrews.ac.uk/HistTopics/Egyptian_numerals/]{.underline}](https://mathshistory.st-andrews.ac.uk/HistTopics/Egyptian_numerals/)
 
-14. [[Rounding -
-    > Wikipedia]{.underline}](https://en.wikipedia.org/wiki/Rounding)
-
-    a.  A [[wavy equals
-        > sign]{.underline}](https://en.wikipedia.org/wiki/Approximately_equals_sign)
-        > ([**[≈]{.underline}**](https://en.wikipedia.org/wiki/%E2%89%88):
-        > *approximately equal to*) is sometimes used to indicate
-        > rounding of exact numbers, e.g., 9.98 ≈ 10. This sign was
-        > introduced by [[Alfred George
-        > Greenhill]{.underline}](https://en.wikipedia.org/wiki/Alfred_George_Greenhill)
-        > in
-        > 1892.[^[\[1\]]{.underline}^](https://en.wikipedia.org/wiki/Rounding#cite_note-1)
-
-    b.  
+14. Wikipedia contributors. (2023, April 1). Rounding. In Wikipedia, The
+    > Free Encyclopedia. Retrieved 18:29, April 9, 2023, from
+    > [[https://en.wikipedia.org/w/index.php?title=Rounding&oldid=1147749195]{.underline}](https://en.wikipedia.org/w/index.php?title=Rounding&oldid=1147749195)
 
 15. [[https://archive.org/details/historyofmathema031756mbp/page/n267/mode/2up]{.underline}](https://archive.org/details/historyofmathema031756mbp/page/n267/mode/2up)
 
@@ -506,18 +531,35 @@ případně navrhuje další možnosti práce s tématem.
     > encyklopedie*. Získáno 17:34, 9. 04. 2023 z
     > [[https://cs.wikipedia.org/w/index.php?title=Matematick%C3%A9_symboly_a_zna%C4%8Dky&oldid=22422578]{.underline}](https://cs.wikipedia.org/w/index.php?title=Matematick%C3%A9_symboly_a_zna%C4%8Dky&oldid=22422578).
 
+26. Wikipedia contributors. (2023, March 5). Table of mathematical
+    > symbols by introduction date. In Wikipedia, The Free Encyclopedia.
+    > Retrieved 18:02, April 9, 2023, from
+    > [[https://en.wikipedia.org/w/index.php?title=Table_of_mathematical_symbols_by_introduction_date&oldid=1143096798]{.underline}](https://en.wikipedia.org/w/index.php?title=Table_of_mathematical_symbols_by_introduction_date&oldid=1143096798)
+
+27. *Bibliography management with biblatex*. (n.d.). Overleaf. Retrieved
+    > April 9, 2023, from
+    > [[https://cs.overleaf.com/learn/latex/Bibliography_management_with_biblatex]{.underline}](https://cs.overleaf.com/learn/latex/Bibliography_management_with_biblatex)
+
+28. Wikipedia contributors. (2023, March 29). TeX. In *Wikipedia, The
+    > Free Encyclopedia*. Retrieved 19:00, April 9, 2023, from
+    > [[https://en.wikipedia.org/w/index.php?title=TeX&oldid=1147287358]{.underline}](https://en.wikipedia.org/w/index.php?title=TeX&oldid=1147287358)
+
+29. LaTeX. (21. 02. 2021). *Wikipedie: Otevřená encyklopedie*. Získáno
+    > 19:01, 9. 04. 2023 z
+    > [[https://cs.wikipedia.org/w/index.php?title=LaTeX&oldid=19512927]{.underline}](https://cs.wikipedia.org/w/index.php?title=LaTeX&oldid=19512927).
+
 # Seznam příloh
 
 > **Příloha 1 -- Počítací značky**
 >
-> ![](media/image26.png){width="6.101744313210848in"
+> ![](media/image6.png){width="6.101744313210848in"
 > height="1.5277777777777777in"}
 >
 > Benjamin D. Esham, Public domain, prostřednictvím Wikimedia Commons
 >
 > **Příloha 2 -- Sexagesimální soustava používaná v Mezopotámii**
 >
-> ![](media/image30.png){width="6.101744313210848in"
+> ![](media/image4.png){width="6.101744313210848in"
 > height="3.611111111111111in"}
 >
 > Josell7, [[CC BY-SA
@@ -590,4 +632,21 @@ případně navrhuje další možnosti práce s tématem.
     méně než (≪), i když jejich přesný význam není úplně
     jasný[^[\[zdroj\]]{.underline}^](https://math.stackexchange.com/questions/1516976/much-less-than-what-does-that-mean).
 
-[^22]: Česky také přibližnost
+[^22]: Aproximace se může hodit při pracování s iracionálními čísly (𝞹,
+    ℇ) a odmocninami (√2)
+
+[^23]: Česky také přibližnost
+
+[^24]: Značka vznikla v roce 1892 a zavedl ji Alfred George Greenhill.
+    ^\[14\]^
+
+[^25]: Za tento symbol můžeme poděkovat německému matematikovi Antonovi
+    Steinhauserovi, který ho použil v roce 1875 v knize *Lehrbuch der
+    Mathematik*.
+
+[^26]: K těm jednodušším slouží balíček chemfig a k těm složitějším
+    balíček chemfig
+
+[^27]: Dokumentaci k balíčku circuitikz, který slouží k zápisu
+    elektrických obvodů, lze najít zde: [[CircuiTikZ 1.6.1 -
+    manual]{.underline}](https://texdoc.org/serve/circuitikz/0)
