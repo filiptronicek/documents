@@ -43,38 +43,50 @@ Filip Troníček
 
 [3 Analýza různých symbolů 7](#analýza-různých-symbolů)
 
-> [3.1 Typy symbolů 7](#typy-symbolů)
+> [3.1 Operátory aritmetiky 7](#operátory-aritmetiky)
 >
-> [3.1.1 Operátory aritmetiky 7](#operátory-aritmetiky)
+> [3.1.1 + a - 7](#a--)
 >
-> [3.1.1.1 + a - 7](#a--)
+> [3.1.2 ·, ×, ÷, :, a / 7](#a)
 >
-> [3.1.1.2 ·, ×, ÷, :, a / 7](#a)
+> [3.1.3 Ostatní aritmetické značky 8](#ostatní-aritmetické-značky)
 >
-> [3.1.1.3 Ostatní aritmetické značky 8](#ostatní-aritmetické-značky)
+> [3.2 Značky číselných vztahů 8](#značky-číselných-vztahů)
 >
-> [3.1.2 Značky číselných vztahů 8](#značky-číselných-vztahů)
+> [3.3 Značky logiky 9](#značky-logiky)
 >
-> [3.2 Značky logiky 9](#značky-logiky)
+> [3.3.1 Podobnosti se symboly teorie množin
+> 9](#podobnosti-se-symboly-teorie-množin)
 >
-> [3.2.1 Podobnosti symbolů teorie množin a výrokové logiky
-> 9](#podobnosti-symbolů-teorie-množin-a-výrokové-logiky)
+> [3.3.2 Ostatní logické symboly 10](#ostatní-logické-symboly)
+>
+> [3.4 Ostatní značky 10](#ostatní-značky)
+>
+> [3.5 Matematické konstanty 11](#matematické-konstanty)
+>
+> [3.5.1 π 11](#π)
+>
+> [3.5.2 e 11](#e)
+>
+> [3.5.3 ɸ 12](#ɸ)
+>
+> [3.6 Znaky číselných oborů 12](#znaky-číselných-oborů)
 
-[4 LaTeX 10](#latex)
+[4 LaTeX \[latech\] 12](#latex-latech)
 
-> [4.1 Původ a účel LaTeXu 10](#původ-a-účel-latexu)
+> [4.1 Původ a účel LaTeXu 13](#původ-a-účel-latexu)
 >
-> [4.2 Vlastnosti LaTeXu 10](#vlastnosti-latexu)
+> [4.2 Vlastnosti LaTeXu 13](#vlastnosti-latexu)
 >
 > [4.3 Výhody použití LaTeXu pro matematický zápis
-> 11](#výhody-použití-latexu-pro-matematický-zápis)
+> 14](#výhody-použití-latexu-pro-matematický-zápis)
 
-[5 Závěr 11](#závěr)
+[5 Závěr 15](#závěr)
 
 [6 Seznam použitých informačních zdrojů
-11](#seznam-použitých-informačních-zdrojů)
+15](#seznam-použitých-informačních-zdrojů)
 
-[7 Seznam příloh 16](#seznam-příloh)
+[7 Seznam příloh 23](#seznam-příloh)
 
 #   {#section .unnumbered}
 
@@ -85,8 +97,8 @@ zmatku. Formát je inspirován otevřenou encyklopedií Wikipedie, která
 vnímá dva typy poznámek pod čarou: **poznámky** a **reference**.
 Poznámky text v mé práci doplňují - jsou tu vysvětlivky, humorné
 příspěvky a zasazování do kontextu. Reference zase text ozdrojovávají a
-dávají informacím v něm kredibilitu[^1]. Reference se značí super
-skriptem a korespondují s jejich ordinálním pořadím v seznamu
+dávají informacím v něm kredibilitu[^1]. Reference se značí
+superskriptem a korespondují s jejich ordinálním pořadím v seznamu
 [[Zdrojů]{.underline}](#seznam-použitých-informačních-zdrojů); například
 první zdroj v seznamu zdrojů se podle tohoto protokolu značí
 jako^\[1\]^. Podobně je také v práci odkazováno na přílohy:
@@ -142,9 +154,9 @@ ve vězení již strávili). ^\[příloha\ 1\]^
 Asi 2000 let př. n. l. začali obyvatelé tamější Mezopotámie zapisovat
 číslice tzv. klínopisem[^6]. Tento systém používá místo našich
 tradičních desíti číslic jenom dvě:
-![](media/image5.png){width="0.22058836395450568in"
+![](media/image1.png){width="0.22058836395450568in"
 height="0.20833333333333334in"}pro zápis jednotek a
-![](media/image3.png){width="0.22237423447069116in"
+![](media/image2.png){width="0.22237423447069116in"
 height="0.20833333333333334in"} pro zápis desítek, což dělá jejich zápis
 podstatně jednodušší na naučení^\[11\]\[12\]^. Pomocí těchto dvou číslic
 dokážeme zapsat číslo až 60^\[příloha\ 2\]^ (sexagesimální soustava),
@@ -152,16 +164,15 @@ přičemž se dají velmi jednoduše zapsat i čísla mnohem větší: pokud si
 čísla nějak oddělíme (čárkou, mezerou apod.), můžeme členy spočítat
 následujícím vzorcem:
 
-[![](media/image2.png){width="0.8055555555555556in"
-height="0.4583333333333333in"}![](media/image2.png){width="0.8055555555555556in"
-height="0.4583333333333333in"}](https://www.codecogs.com/eqnedit.php?latex=%5Csum_%7Bi%3D0%7D%5E%7Bn%7D%20d_i%20%5Ctimes%2060%5Ei#0)
+$d_{i} \times 60^{i}$
 
 kde $n$ je nejvyšší pořadová hodnota pozice, $d_{i}$ je číslice na
 $i$-té pozici (přičemž pro nejpravější pozici platí, že $i\  = \ 0$) a
 $60^{i}$ představuje mocninu 60 přiřazenou této pozici. Kupříkladu
 sexagesimální číslo 1, 35, 25, 30 lze vyjádřit jako:
 
-$1\  \times \ 60^{3}\  + \ 35\  \times \ 60^{2}\  + \ 25\  \times 60^{1}\  + \ 30\  \times 60^{0}\  = \ 343\ 530$[^7]
+$1\  \times \ 60^{3}\  + \ 35\  \times \ 60^{2}\  + \ 25\  \times 60^{1}\  + \ 30\  \times 60^{0}\  = \ 343\ 530$
+[^7]
 
 Tento vzorec vyjadřuje babylonskou sexagesimální poziční soustavu a lze
 jej použít k převodu libovolného sexagesimálního čísla na jeho dekadický
@@ -214,8 +225,6 @@ technik, jako například Fibonacciho posloupnost.
 
 # Analýza různých symbolů
 
-## Typy symbolů
-
 [[Glossary of mathematical symbols -
 Wikipedia]{.underline}](https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols)
 
@@ -223,14 +232,14 @@ V moderní matematice najdeme symbolů opravdu mnoho a proto je lepší u
 nich zavést jednoduchou taxonomii. I samotných kategorií je ale pro naše
 účely trochu moc a následuje výčet jejich zkrácené a upravené verze[^9]:
 
-### Operátory aritmetiky
+## Operátory aritmetiky
 
 Mezi nejzákladnější symboly, které v oboru matematiky rozeznáváme se
 řadí aritmetické operátory. Do této kategorie patří ty nejpoužívanější
 symboly, se kterými se setkáváme i v ne-matematických prostředích každý
 den.
 
-#### + a -
+### + a -
 
 Znaménko pluska má dva hlavní významy: jednoduché aritmetické sčítání
 dvou symbolů, nebo jako denotace absence zápornosti.[^10]
@@ -242,7 +251,7 @@ je zmiňuje jest *Algorismus proportionum* od Mikuláše Oresma. Znaménko +
 mělo v této době zkracovat latinské slovo pro spojku "a", *et*, které se
 zkracovalo jen na písmeno t, připomínající dnešní značku pro sčítání.
 
-#### ·, ×, ÷, :, a /
+### ·, ×, ÷, :, a /
 
 Symboly pro násobení (**·** a ×) jsme oba dostali v 17. století: symbol
 × se prvně objevil v anonymním dodatku překladu od Edwarda Wrighta, díla
@@ -251,8 +260,8 @@ Descriptio*^\[17\]\[18\]^. *"Tečku jako symbol pro násobení zavedl G. W.
 Leibniz. Dne 29. července 1698 napsal v dopise Johnu Bernoullimu:
 \"Nemám rád X jako symbol pro násobení, protože se snadno zaměňuje s x;
 \... často prostě spojuji dvě veličiny pomocí vložené tečky a označuji
-násobení ZC \* LM. Proto při označování poměru nepoužívám jednu tečku,
-ale dvě tečky, které zároveň používám pro dělení.\"" (Robertson &
+násobení* $ZC \cdot \ LM$*. Proto při označování poměru nepoužívám jednu
+tečku, ale dvě tečky, které zároveň používám pro dělení.\"" (Robertson &
 O'Connor, n.d.).*
 
 Značky pro operaci opačnou násobení, dělení, je podstatně více. Možná
@@ -266,7 +275,7 @@ používat symbol horizontálního i diagonálního lomítka[^14], z kterého se
 vyvinuly i značky pro procenta (%), promile ([‰]{.mark}) a bazického
 bodu (‱)^\[23\]^. ^\[22\]^
 
-#### Ostatní aritmetické značky
+### Ostatní aritmetické značky
 
 Zbylé základní značky mocnin a odmocnin. Mocniny tak jak je značíme dnes
 (superskriptem jako $x^{2}$) začal používat René Descartes v díle *La
@@ -278,19 +287,19 @@ Rudolff použil poprvé znak $$, bylo to bez vodorovné čáry nad
 odmocninovým obsahem[^18]^\[18\]^.
 
 Znaménko pro "plus mínus",
-[![](media/image7.png){width="0.1111111111111111in"
+[![](media/image5.png){width="0.1111111111111111in"
 height="0.1111111111111111in"}](https://www.codecogs.com/eqnedit.php?latex=%5Cpm#0),
 vytvořil William Oughtred pro jeho spis *Clavis Mathematicae (1631)*.
 
-### Značky číselných vztahů
+## Značky číselných vztahů
 
 Pro porovnání dvou nebo více čísel můžeme použít vztahové operátory.
 Nejzákladnější znaménko z této kategorie je znaménko Tento symbol byl
 zveřejněn poprvé v roce 1557 a byl popsán Robertem Recordem jako "pár
 rovnoběžek".^\[24\]^
 
-Pro popsání jakékoliv nerovnosti používáme $\neq$, pro nerovnost
-určující "není větší než" používáme ≯ (a opačné ≮).[^19][^20]
+Pro popsání jakékoliv nerovnosti používáme $\neq$[^19], pro nerovnost
+určující "není větší než" používáme ≯ (a opačné ≮).[^20]
 
 Za zmínku stojí samozřejmě i symboly pro větší než, ＞, větší nebo rovno
 ≥, a jejich protějšky menší než, ＜ a menší nebo rovno, ≤.[^21]
@@ -301,20 +310,21 @@ se obecně značí znaménkem $\approx$, které značí, že si jsou dvě čísl
 skoro rovná[^24]. S aproximací souvisí i zaokrouhlování (≐), přičemž
 schválně snižujeme přesnost čísla pro jednodušší nakládání s ním[^25].
 
-### Značky logiky
+Pokud si opravdu nevíte rady, a chcete, aby vaše rovnice platila za
+pomocí jenom jednoho znaku, můžete použít ⪑, či ⪒ (méně než, více než,
+nebo rovno a více než, méně než, nebo rovno).[^26]
 
-Pro logické výroky používáme v matematice logické značky.
+## Značky logiky
 
-#### Podobnosti symbolů teorie množin a výrokové logiky
+Pro logické výroky používáme v matematice logické značky. Tyto symboly
+můžeme používat nejen přímo v logice, ale i třeba v geometrii (symboly
+$\exists$ pro "existuje", $\forall$ pro "pro všechny"[^27]).
 
-Teorie množin a výroková logika jsou dva základní matematické obory,
-které se zabývají strukturami a způsoby, jak vyjadřovat a analyzovat
-matematické tvrzení. Přestože se jedná o různé obory, existují mezi nimi
-určité podobnosti v základních symbolech a operacích, konkrétně v
-symbolu AND a OR.
+### Podobnosti se symboly teorie množin
 
-V teorii množin se tyto operace používají pro popis interakcí mezi
-množinami.
+Podobnosti symbolů napříč matematikou nenajdeme v kontrastu s výrokovou
+logikou jen u geometrie. Symboly podobné, nikoliv stejné, můžeme najít v
+teorii množin.
 
 -   **Průnik** ($\cap$ / AND): Průnik dvou množin A a B, značený jako A
     > $\cap$ B, je množina obsahující všechny prvky, které jsou součástí
@@ -324,7 +334,7 @@ množinami.
     > jako A $\cup$ B, je množina obsahující všechny prvky, které jsou
     > součástí alespoň jedné z množin A nebo B.
 
-Výroková logika, na druhou stranu, se zabývá vztahy mezi výroky
+Výroková logika se na druhou stranu zabývá vztahy mezi výroky
 (tvrzeními) a jejich pravdivostními hodnotami. Základní operace výrokové
 logiky zahrnují:
 
@@ -336,7 +346,99 @@ logiky zahrnují:
     > jako $p\  \vee q$, je pravdivá, pokud je pravdivý alespoň jeden z
     > výroků p nebo q.
 
-# LaTeX
+### Ostatní logické symboly
+
+V knize *Die formalen Regeln der intuitionistischen Logik* zavedl Arend
+Heyting pro logickou negaci znak ¬^\[30\]\[31\]^, který je pro
+jednodušší zápis v některých kontextech zaměňován za vlnovku (˜) nebo
+vykřičník (!)^\[6\]^.
+
+Pokud máme výrok, který vede k jinému výroku, používáme znaky jako
+⇒[^28] (implikace, pokud A je pravda, B také), ∴ (symbol pro "takže":
+$x + 1 = 10\ \therefore\ x\  = 9$^\[38\]^), nebo jeho obrácenou formu, ∵
+(protože)[^29].
+
+Symboly logiky jsou velmi hojně užívané i v rozsáhlých knižních dílech,
+jako je například *Principia Mathematica* od Alfreda N. Whiteheada a
+Bertranda Russella. Toto třísvazkové dílo používá symbolickou logiku pro
+stovky důkazů, z kterých jeden je důkaz výroku $1\  + 1 = 2$. Autoři k
+němu dodávají, že "Výše uvedené tvrzení je občas užitečné" (Whitehead &
+Russell, 1910/2005, s. 86). V této trilogii se také poprvé objevuje
+symboly $p$ a $q$ pro zapisování konceptů jako je podmíněná
+pravděpodobnost.
+
+## Ostatní značky
+
+Do této kategorie řadím značky, které se sice používají často, ale patří
+do oborů, pro které to platí jen pro málo symbolů.
+
+Příkladem z těch obecnějších je suma (Σ), kterou v roce 1755 začal
+používat Euler^\[26\]^, podobně jako značky nerovnostních vztahů, o
+kterých jsme se bavili pár kapitol zpátky.
+
+Znak pro prázdnou množinu, ∅ je jeden z těch nejnovějších (zaveden v
+roce 1939). Před tím, než jsme ho dostali se prázdné množiny zapisovaly
+jako {}^\[26\]^.
+
+Za zapisování konceptu nekonečna stojí John Wallis, který pro něj v 50.
+letech 17. století použil tzv. lemniskátu[^30] - populárně nazývanou
+"ležatou osmičkou": ∞. Důvod k využití zrovna tohoto symbolu není jistě
+známé, ale jedna z populárních teorií tvrdí, že je to prostá adaptace
+symbolu z římských číslic pro číslo 1 000: CIƆ nebo jednoduše
+CƆ[^31]^\[39\]\[40\]^.
+
+Pokud chceme znázornit, že prvek náleží nebo nenáleží nějaké množině,
+používáme symbol ∈ a jeho opak ∉, který se používá od konce 19.
+století.^\[26\]^
+
+## Matematické konstanty 
+
+Někdy reprezentujeme i speciální čísla matematiky symboly, protože je v
+některých nemožné zapsat jejich plný číselný rozvoj.
+
+### π
+
+Ludolfovo číslo, zapisované miniskulou řeckého písmena pí[^32] a
+vyjadřuje poměr obvodu kruhu k jeho průměru. Jeho přibližná hodnota v
+desítkové soustavě je 3,14 a proto se každého 14. března slaví
+mezinárodní den 𝛑[^33]. Toto řecké písmeno bylo poprvé použito podle
+naší dnešní definice v roce 1706 Williamem Jonesem.^\[44\]^ 𝛑 je
+používáno kvůli tomu, že je prvním písmenem pro slovo "obvod" v řečtině,
+περίμετρος^\[43\]^.
+
+### $e$
+
+Pro zapisování Eulerova čísla se používá malé písmeno E. Je základem
+přirozených logaritmů a jeho přibližná hodnota činí 2,71828.^\[45\]^
+
+Písmeno sice zavedl Euler, ale neoznačuje první písmeno jeho příjmení.
+Přesný původ písmena není známý.^\[44\]^
+
+### ɸ
+
+Malé řecké fí, nazývané také "zlatý řez" označuje poměr, který *"vznikne
+rozdělením úsečky na dvě části tak, že poměr větší části k menší je
+stejný jako poměr celé úsečky k větší části"* (Přispěvatelé projektů
+Wikimedia, 2023). Tento poměr se dá vyjádřit jako následující rovnice:
+
+$\varphi\  = \ 1 + \frac{1 +}{2}$ ^\[46\]^
+
+Původ používání fí pro označení zlatého řezu je sporný. Některé prameny
+uvádějí, že se \"fí\" začalo používat na počátku 20. století na počest
+řeckého sochaře Feidia, který zlatý řez hojně používal ve svých
+dílech.^\[44\]\[46\]^
+
+## Znaky číselných oborů 
+
+I když čísla byla označována již dříve, od konce 19. století používáme
+naše moderní jednopísmenné zkratky pro různé číselné obory, psané
+převážně zdvojeným písmem[^34]. Tyto zkratky začaly písmenem ℕ (dříve
+J^\[42\]^) pro přirozená čísla a písmenem ℚ pro čísla racionální (obě
+zavedeny 1895^\[26\]^). V roce 1930 jsme dostali ℤ pro celá čísla a o
+devět let později přišlo písmeno ℂ (ze všech nejspíše nejméně
+používané[^35]).^\[26\]^
+
+# LaTeX *\[latech\]*
 
 Digitální doba přinesla v oblasti matematického zápisu významný pokrok a
 inovace. Jedním z nejrozšířenějších nástrojů pro vytváření, formátování
@@ -375,8 +477,8 @@ c.  Balíčky a makra: Uživatelé mohou vytvářet vlastní makra nebo
     > importovat existující balíčky a rozšiřovat tak funkčnost LaTeXu,
     > díky čemuž je vysoce přizpůsobitelný a přizpůsobitelný různým
     > potřebám. Toto umožňuje uživatelům LaTeXu zapisovat nejen
-    > matematiku, ale i složité chemické sloučeniny[^26] nebo elektrické
-    > obvody[^27].
+    > matematiku, ale i složité chemické sloučeniny[^36] nebo elektrické
+    > obvody[^37].
 
 d.  Správa bibliografie: LaTeX nabízí účinné nástroje pro správu
     > bibliografických odkazů a citací, včetně systémů BibTeX a
@@ -412,30 +514,21 @@ případně navrhuje další možnosti práce s tématem.
     > 12:07, 11. 02. 2023 z
     > [[https://cs.wikipedia.org/w/index.php?title=Latinka&oldid=21849674]{.underline}](https://cs.wikipedia.org/w/index.php?title=Latinka&oldid=21849674).
 
-2.  [[Earliest Uses of Various Mathematical
-    > Symbols]{.underline}](https://mathshistory.st-andrews.ac.uk/Miller/mathsym/)
+2.  Robertson, E., & O'Connor, J. (n.d.-b). *Earliest Uses of Various
+    > Mathematical Symbols*. Maths History; University of St Andrews.
+    > Retrieved April 11, 2023, from
+    > [[https://mathshistory.st-andrews.ac.uk/Miller/mathsym/]{.underline}](https://mathshistory.st-andrews.ac.uk/Miller/mathsym/)
 
-3.  [[History of mathematical notation -
-    > Wikipedia]{.underline}](https://en.wikipedia.org/wiki/History_of_mathematical_notation)
+3.  Wikipedia contributors. (2023, February 10). History of mathematical
+    > notation. In *Wikipedia, The Free Encyclopedia*. Retrieved 08:43,
+    > April 11, 2023, from
+    > [[https://en.wikipedia.org/w/index.php?title=History_of_mathematical_notation&oldid=1138568632]{.underline}](https://en.wikipedia.org/w/index.php?title=History_of_mathematical_notation&oldid=1138568632)
 
-    a.  Matematické symboly mají různý původ a historii. Některé z nich
-        > jsou řecká a latinská písmena, která se používají už od
-        > starověku. Jiné, jako plus, mínus, krát a děleno, vypadají
-        > jako obyčejné značky na papíře. Přesto jsou symboly v
-        > matematice v podstatě pokyny, které řídí tuto oblast vědy².
-
-    b.  Nejstarší důkazy o psané matematice pocházejí od starověkých
+    a.  Nejstarší důkazy o psané matematice pocházejí od starověkých
         > Sumerů a jejich systému měření z roku 3000 př. n. l. Od roku
         > 2500 př. n. l. Sumerové psali na hliněné tabulky násobilku a
         > zabývali se geometrickými cvičeními a dělením. Nejstarší stopy
         > babylonských číslic také pocházejí z tohoto období.
-
-    c.  Symboly, které známe a používáme dnes, nebyly vytvořeny až
-        > do 15. století. První použití plusového znaménka bylo v roce
-        > 1489 německým matematikem Johannesem Widmannem. Plusové
-        > znaménko jen představuje písmeno „t", které bylo zkratkou
-        > latinského slova „et", což znamená „a". Podobně Widmann byl
-        > prvním člověkem, který použil mínusové znaménko.
 
 4.  Wikipedia contributors. (2023, March 16). Roman numerals. In
     > Wikipedia, The Free Encyclopedia. Retrieved 15:20, April 9, 2023,
@@ -548,11 +641,88 @@ případně navrhuje další možnosti práce s tématem.
     > 19:01, 9. 04. 2023 z
     > [[https://cs.wikipedia.org/w/index.php?title=LaTeX&oldid=19512927]{.underline}](https://cs.wikipedia.org/w/index.php?title=LaTeX&oldid=19512927).
 
+30. Conifold, & Brother, B. (2022, August 6). *mathematics - What is the
+    > origin of the negation ( ¬ ) operator from logic?* History of
+    > Science and Mathematics Stack Exchange.
+    > [[https://hsm.stackexchange.com/a/14661]{.underline}](https://hsm.stackexchange.com/a/14661)
+
+31. Robertson, E., & O'Connor, J. (n.d.). *Earliest Uses of Symbols of
+    > Set Theory and Logic*. Maths History; University of St Andrews.
+    > Retrieved April 9, 2023, from
+    > [[https://mathshistory.st-andrews.ac.uk/Miller/mathsym/set/]{.underline}](https://mathshistory.st-andrews.ac.uk/Miller/mathsym/set/)
+
+32. Wikipedia contributors. (2023, April 12). List of logic symbols. In
+    > Wikipedia, The Free Encyclopedia. Retrieved 09:09, April 15, 2023,
+    > from
+    > [[https://en.wikipedia.org/w/index.php?title=List_of_logic_symbols&oldid=1149469874]{.underline}](https://en.wikipedia.org/w/index.php?title=List_of_logic_symbols&oldid=1149469874)
+
+33. *11 things you never knew about mathematical symbols*. (2021, July
+    > 30). Mathematics; University of Waterloo.
+    > [[https://uwaterloo.ca/math/eleven-things-math-symbols]{.underline}](https://uwaterloo.ca/math/eleven-things-math-symbols)
+
+34. Lista symboli matematycznych. (2023, marzec 26). *Wikipedia, wolna
+    > encyklopedia*. Dostęp 09:35, kwiecień 15, 2023, Dostępny w
+    > Internecie:
+    > [[https://pl.wikipedia.org/w/index.php?title=Lista_symboli_matematycznych&oldid=69961529]{.underline}](https://pl.wikipedia.org/w/index.php?title=Lista_symboli_matematycznych&oldid=69961529)
+
+35. Whitehead, A. N., & Russell, B. (2005). *Principia mathematica, by
+    > Alfred North Whitehead \... and Bertrand Russell.* (p. 86). Ann
+    > Arbor, Michigan: University of Michigan Library.
+    > [[https://quod.lib.umich.edu/u/umhistmath/aat3201.0002.001]{.underline}](https://quod.lib.umich.edu/u/umhistmath/aat3201.0002.001)
+    > (Original work published 1910)
+
+36. Veritasium. (2021, May 22). *This is Math's Fatal Flaw*. YouTube.
+    > [[https://www.youtube.com/watch?v=HeQX2HjkcNo]{.underline}](https://www.youtube.com/watch?v=HeQX2HjkcNo)
+
+37. Robertson, E., & O'Connor, J. (n.d.). *Earliest Uses of Symbols in
+    > Probability and Statistics*. Maths History; University of St
+    > Andrews. Retrieved April 9, 2023, from
+    > [[https://mathshistory.st-andrews.ac.uk/Miller/mathsym/stat/]{.underline}](https://mathshistory.st-andrews.ac.uk/Miller/mathsym/stat/)
+
+38. Wikipedia contributors. (2023, February 18). Therefore sign. In
+    > *Wikipedia, The Free Encyclopedia*. Retrieved 06:50, February 18,
+    > 2023, from
+    > [[https://en.wikipedia.org/w/index.php?title=Therefore_sign&oldid=1140063065]{.underline}](https://en.wikipedia.org/w/index.php?title=Therefore_sign&oldid=1140063065)
+
+39. *Infinity Symbol and Roman Numerals*. (n.d.). Roman Numerals.
+    > Retrieved April 15, 2023, from
+    > [[https://www.romannumerals.org/blog/infinity-symbol-and-roman-numerals-2]{.underline}](https://www.romannumerals.org/blog/infinity-symbol-and-roman-numerals-2)
+
+40. *Why is infinity an 8? -- WittyQuestion.com*. (2020, November 26).
+    > WITTYQUESTION.com.
+    > [[https://witty-question.com/why-is-infinity-an-8/]{.underline}](https://witty-question.com/why-is-infinity-an-8/#:~:text=The%20most%20accepted%20theory%20for%20the%20chpice%20of)
+
+41. *Seznam často užívaných symbolů*. (n.d.). Mendelu.cz; Mendelova
+    > univerzita v Brně. Retrieved April 15, 2023, from
+    > [[https://is.mendelu.cz/eknihovna/opory/zobraz_cast.pl?cast=9110]{.underline}](https://is.mendelu.cz/eknihovna/opory/zobraz_cast.pl?cast=9110)
+
+42. Rudin, W. (1976). *Principles of Mathematical Analysis* (3rd ed.).
+    > McGraw-Hill. ISBN 978-0-07-054235-8.
+
+43. Pí (číslo). (28. 03. 2023). *Wikipedie: Otevřená encyklopedie*.
+    > Získáno 09:38, 16. 04. 2023 z
+    > [[https://cs.wikipedia.org/w/index.php?title=P%C3%AD\_(%C4%8D%C3%ADslo)&oldid=22583512]{.underline}](https://cs.wikipedia.org/w/index.php?title=P%C3%AD_(%C4%8D%C3%ADslo)&oldid=22583512).
+
+44. Robertson, E., & O'Connor, J. (n.d.). *Earliest Uses of Symbols for
+    > Constants*. Maths History; University of St Andrews. Retrieved
+    > April 9, 2023, from
+    > [[https://mathshistory.st-andrews.ac.uk/Miller/mathsym/constants/]{.underline}](https://mathshistory.st-andrews.ac.uk/Miller/mathsym/constants/)
+
+45. Eulerovo číslo. (23. 02. 2023). *Wikipedie: Otevřená encyklopedie*.
+    > Získáno 09:42, 16. 04. 2023 z
+    > [[https://cs.wikipedia.org/w/index.php?title=Eulerovo\_%C4%8D%C3%ADslo&oldid=22485298]{.underline}](https://cs.wikipedia.org/w/index.php?title=Eulerovo_%C4%8D%C3%ADslo&oldid=22485298).
+
+46. Zlatý řez. (28. 02. 2023). *Wikipedie: Otevřená encyklopedie*.
+    > Získáno 09:53, 16. 04. 2023 z
+    > [[https://cs.wikipedia.org/w/index.php?title=Zlat%C3%BD\_%C5%99ez&oldid=22502229]{.underline}](https://cs.wikipedia.org/w/index.php?title=Zlat%C3%BD_%C5%99ez&oldid=22502229).
+
+47. 
+
 # Seznam příloh
 
 > **Příloha 1 -- Počítací značky**
 >
-> ![](media/image6.png){width="6.101744313210848in"
+> ![](media/image3.png){width="6.101744313210848in"
 > height="1.5277777777777777in"}
 >
 > Benjamin D. Esham, Public domain, prostřednictvím Wikimedia Commons
@@ -623,7 +793,8 @@ případně navrhuje další možnosti práce s tématem.
 [^18]: Tuto vodorovnou čáru, latinsky *vinculum* přidal ve stejném díle
     jako moderní mocniny Descartes.
 
-[^19]: Všechny tyto symboly zavedl Euler
+[^19]: Pro podobné účely můžeme použít i znaménka "více, nebo méně
+    než" - ≷, a také "méně, nebo více než" - ≶
 
 [^20]: Sem se dají ještě zařadit symboly ≨ (ne méně, ale ne rovno) a ≩
     (ne více, ale ne rovno)
@@ -631,11 +802,14 @@ případně navrhuje další možnosti práce s tématem.
 [^21]: K nim můžeme také zařadit symboly mnohem více než (≫) a mnohem
     méně než (≪), i když jejich přesný význam není úplně
     jasný[^[\[zdroj\]]{.underline}^](https://math.stackexchange.com/questions/1516976/much-less-than-what-does-that-mean).
+    Tyto symboly nám většinou říkají, že jedno číslo se nezanedbatelně
+    liší od toho druhého a většinou tak spadají pod jinou řádovou
+    velikost.
 
-[^22]: Aproximace se může hodit při pracování s iracionálními čísly (𝞹,
-    ℇ) a odmocninami (√2)
+[^22]: Aproximace se může hodit při pracování s iracionálními čísly
+    (třeba 𝞹 nebo ℇ) a odmocninami (například √2)
 
-[^23]: Česky také přibližnost
+[^23]: Česky také přibližnost.
 
 [^24]: Značka vznikla v roce 1892 a zavedl ji Alfred George Greenhill.
     ^\[14\]^
@@ -644,9 +818,46 @@ případně navrhuje další možnosti práce s tématem.
     Steinhauserovi, který ho použil v roce 1875 v knize *Lehrbuch der
     Mathematik*.
 
-[^26]: K těm jednodušším slouží balíček chemfig a k těm složitějším
+[^26]: Samozřejmě je tento symbol používán velmi střídmě.
+
+[^27]: V Polsku se místo ∀ někdy používá ⋀ a ⋁ místo ∃^\[34\]^.
+
+[^28]: Šipka s dvěma rovnoběžkami byla zavedena v roce 1954 Nicholasem
+    Bourbakim. Před ní se uvedla v roce 1922 šipka jednoduchá (→).
+
+[^29]: I když symbol ∴ byl poprvé publikován v roce 1659^\[31\]^,
+    použití těchto dvou značek bylo před jejich ∞formalizováním v 19.
+    století velmi inkonzistentní^\[33\]^.
+
+[^30]: Lemniskáta je heslo, které se neobjevuje ve slovníku spisovného
+    jazyka českého a je odvozená od jejich použití na různých místech na
+    internetu - [[Bernoulliho
+    lemniskáta]{.underline}](http://fyzikalniolympiada.cz/cd/matematika/krivky/kuzelos/bernoulli.htm),
+    [[lemniskáta - ABZ.cz: slovník cizích
+    slov]{.underline}](https://slovnik-cizich-slov.abz.cz/web.php/slovo/lemniskata),
+    [[Lemniskáta \| Slovník cizích
+    slov]{.underline}](https://www.infoz.cz/lemniskata/).
+
+[^31]: Podle autora této práce také lemniskátě napomáhá, že když půjdete
+    po jejích křivkách, nikdy neskončíte - takže váš tah prstem či
+    tužkou bude nekonečný.
+
+[^32]: Jeho majuskula, 𝚷, se používá pro zápis součinu.
+
+[^33]: [[Den pí --
+    Wikipedie]{.underline}](https://cs.wikipedia.org/wiki/Den_p%C3%AD)
+
+[^34]: Toto platí hlavně pro mezinárodní scénu. V České republice
+    používáme častěji nezdvojenou notaci.
+
+[^35]: Je důležité zmínit, že toto nejsou všechny číselné obory. O
+    dalších se můžete dočíst v článku [[Glossary of mathematical
+    symbols -
+    Wikipedia]{.underline}](https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols#Blackboard_bold)
+
+[^36]: K těm jednodušším slouží balíček chemfig a k těm složitějším
     balíček chemfig
 
-[^27]: Dokumentaci k balíčku circuitikz, který slouží k zápisu
+[^37]: Dokumentaci k balíčku circuitikz, který slouží k zápisu
     elektrických obvodů, lze najít zde: [[CircuiTikZ 1.6.1 -
     manual]{.underline}](https://texdoc.org/serve/circuitikz/0)
