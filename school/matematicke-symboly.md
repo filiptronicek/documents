@@ -168,9 +168,9 @@ které ve vězení již strávili). ^\[příloha\ 1\]^
 Asi 2000 let př. n. l. začali obyvatelé tamější Mezopotámie zapisovat
 číslice tzv. klínopisem[^6]. Tento systém používá místo našich
 tradičních desíti číslic jenom dvě:
-![](media/image3.png){width="0.22058836395450568in"
+![](media/image4.png){width="0.22058836395450568in"
 height="0.20833333333333334in"}pro zápis jednotek a
-![](media/image1.png){width="0.22237423447069116in"
+![](media/image3.png){width="0.22237423447069116in"
 height="0.20833333333333334in"} pro zápis desítek, což dělá jejich zápis
 podstatně jednodušší na naučení^\[11\]\[12\]^. Pomocí těchto dvou číslic
 dokážeme zapsat číslo až 60^\[příloha\ 2\]^ (sexagesimální neboli
@@ -400,7 +400,7 @@ Rudolff použil poprvé znak $$, bylo to bez vodorovné čáry nad
 odmocninovým obsahem[^25]^\[18\]^.
 
 Znaménko pro "plus mínus",
-[![](media/image4.png){width="0.1111111111111111in"
+[![](media/image1.png){width="0.1111111111111111in"
 height="0.1111111111111111in"}](https://www.codecogs.com/eqnedit.php?latex=%5Cpm#0),
 vytvořil William Oughtred pro jeho spis *Clavis Mathematicae (1631)*.
 
@@ -727,6 +727,9 @@ kterých by v této podobě práce nevznikla:
 
 -   paní **Mgr. Jindře Glogrové** za poskytnutí nápadů ke zpracovaným
     > tématům práce.
+
+-   paní **MUDr. Radce Troníčkové** za hledání těch slov, která mi z
+    > práce vypadávala a také za neustálou podporu.
 
 #  Seznam použitých informačních zdrojů
 
