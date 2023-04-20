@@ -2,7 +2,7 @@ Gymnázium Thomase Manna
 
 ROČNÍKOVÁ PRÁCE
 
-Matematické značky - jejich význam, historie, a budoucnost
+Matematické značky -- jejich význam, historie, a budoucnost
 
 Filip Troníček
 
@@ -109,20 +109,20 @@ Filip Troníček
 Ještě před úvodem bych rád uvedl formát této práce pro zamezení možného
 zmatku. Formát je inspirován otevřenou encyklopedií Wikipedie, která
 vnímá dva typy poznámek pod čarou: **poznámky** a **reference**.
-Poznámky text v mé práci doplňují - jsou tu vysvětlivky, humorné
-příspěvky a zasazování do kontextu. Reference zase text ozdrojovávají a
-dávají informacím v něm kredibilitu[^1]. Reference se značí číslem s
-horním indexem a korespondují s jejich ordinálním pořadím v seznamu
-[[Zdrojů]{.underline}](#seznam-použitých-informačních-zdrojů); například
-první zdroj v seznamu zdrojů se podle tohoto protokolu značí
+Poznámky text v mé práci doplňují -- jsou tu vysvětlivky, humorné
+příspěvky a zasazování do kontextu. Reference zase k textovým pasážím
+přidávají zdroje a dávají informacím v něm kredibilitu[^1]. Reference se
+značí číslem s horním indexem a korespondují s jejich ordinálním pořadím
+v seznamu [[Zdrojů]{.underline}](#seznam-použitých-informačních-zdrojů);
+například první zdroj v seznamu zdrojů se podle tohoto protokolu značí
 jako^\[1\]^. Podobně je také v práci odkazováno na přílohy:
 ^\[příloha\ 1\]^.
 
 # Úvod
 
 Pro psanou komunikaci[^2] používá většina západního světa stejný zápis
-písmen - to tedy nadstavbu latinky, která nese název "humanistické
-písmo". Používá jí 2,5 miliardy mluvčích^\[1\]^ a v naší kultuře ji
+písmen -- to tedy nadstavbu latinky, která nese název "humanistické
+písmo". Používá ji asi 2,5 miliardy mluvčích^\[1\]^ a v naší kultuře ji
 považujeme za samozřejmost. Co možná ale dokáže překvapit je skutečnost,
 že na světě existuje styl zápisu výrazů a vztahů mezi nimi, který je
 celosvětově zcela univerzální: matematická notace.
@@ -134,7 +134,7 @@ nenechává místo pro interpretaci[^3], narozdíl od přirozených jazyků.
 # Cíl práce
 
 Cílem práce je přiblížit čtenáři pojem matematických značek, včetně
-popsání jejich historie, jejich částečnou kategorizací a analýze
+popsání jejich historie, jejich částečnou kategorizací a analýzu
 některých z nich. Zároveň čtenáři poskytne náhled do digitálního
 zpracování tohoto jazyka vědy a jeho nynějšího distribučního média.
 
@@ -157,20 +157,20 @@ problémech[^4]^\[3\]\[7\]^.
 Později v této době se matematika také začala zapisovat. Začátky zápisu
 čísel vůbec přiřazujeme rytí značek do kamene či dřeva, kde každá z
 čárek představovala jednu jednotku. Tato praktika byla používána v mnoha
-kulturách a byla napříč nimi velmi podobná[^5] - to zajisté přispívá k
+kulturách a byla napříč nimi velmi podobná[^5] -- to zajisté přispívá k
 tomu, že čárky používáme na některých místech dodnes (například pro
 počítání skóre na amatérských sportovních zápasech, nebo ve
-steterotipickém vězení pro vězně, kteří si tak značkují počet dnů, které
-ve vězení již strávili). ^\[příloha\ 1\]^
+stereotypickém prostředí pro vězně, kteří si tak značkují počet dnů,
+které ve vězení již strávili). ^\[příloha\ 1\]^
 
 ### Mezopotámie
 
 Asi 2000 let př. n. l. začali obyvatelé tamější Mezopotámie zapisovat
 číslice tzv. klínopisem[^6]. Tento systém používá místo našich
 tradičních desíti číslic jenom dvě:
-![](media/image1.png){width="0.22058836395450568in"
+![](media/image3.png){width="0.22058836395450568in"
 height="0.20833333333333334in"}pro zápis jednotek a
-![](media/image3.png){width="0.22237423447069116in"
+![](media/image1.png){width="0.22237423447069116in"
 height="0.20833333333333334in"} pro zápis desítek, což dělá jejich zápis
 podstatně jednodušší na naučení^\[11\]\[12\]^. Pomocí těchto dvou číslic
 dokážeme zapsat číslo až 60^\[příloha\ 2\]^ (sexagesimální neboli
@@ -194,11 +194,11 @@ ekvivalent.
 
 ### Starověký Egypt
 
-Ještě dříve než v Mezopotámii se kolem 3. tisíciletí před Kristem začala
-matematika zapisovat ve Starověkém Egyptě. Zde používali dekadický
-neboli desítkový systém, ve kterém měli speciální hieroglyfické symboly
-nejen pro celá čísla (10, 100, 1000, 10 000 a 100 000), ale i pro zlomky
-(½, ⅓, ⅔, ¼ a ⅕ )^\[5\]\[13\]^.
+Ještě dříve než v Mezopotámii, se kolem 3. tisíciletí před Kristem
+začala matematika zapisovat ve Starověkém Egyptě. Zde používali
+dekadický neboli desítkový systém, ve kterém měli speciální
+hieroglyfické symboly nejen pro celá čísla (10, 100, 1000, 10 000 a 100
+000), ale i pro zlomky (½, ⅓, ⅔, ¼ a ⅕ )^\[5\]\[13\]^.
 
 ### Značení v Řecku
 
@@ -253,7 +253,7 @@ jedničkou a můžeme je kombinovat pro arbitrární počty:^\[49\]^
 
 ## Synkopická fáze
 
-V průběhu středověku, zhruba do 10. století našeho letopočtu nastala ve
+V průběhu středověku, zhruba do 10. století našeho letopočtu, nastala ve
 vývoji matematiky tzv. synkopická fáze. Tato fáze byla obdobím, kdy se
 matematika postupně přesouvala z antických center do nově vznikajících
 univerzit a studijních institucí. Ve středověké Evropě se během
@@ -289,9 +289,9 @@ technik, jako například Fibonacciho posloupnost.
 
 ### Modernější Řecko
 
-Před tím, než se Řecku objevily arabské číslice (kolem 15. století), byl
-systém attických číslic nahrazen za iónský[^9], který používal řeckou
-abecedu pro substituci všech jednotek[^10], desítek a stovek. To
+Před tím, než se v Řecku objevily arabské číslice (kolem 15. století),
+byl systém attických číslic nahrazen za iónský[^9], který používal
+řeckou abecedu pro substituci všech jednotek[^10], desítek a stovek. To
 znamená, že tento systém využil všech 27 písmen tehdejší abecedy a mohl
 si velmi jednoduše poradit s čísly pod jeden tisíc.
 
@@ -334,19 +334,19 @@ Po synkopické fázi se nacházíme ve stejné fázi, která pokračuje do 21.
 století. V této době matematického "novověku" se shledáváme s
 prvopočátky a pokračování matematického zápisu, který používáme dodnes.
 V průběhu této přes milénium-dlouhé doby se v oblasti matematiky
-vytvořily stovky[^14] různých objevů a převratů, které jsou pro naší
-dobu klíčovou.[^15]
+vytvořily stovky[^14] různých objevů a převratů, které jsou pro naši
+dobu klíčové.[^15]
 
 # Analýza různých symbolů
 
-V moderní matematice najdeme symbolů opravdu mnoho a proto je lepší u
+V moderní matematice najdeme symbolů opravdu mnoho, a proto je lepší u
 nich zavést jednoduchou taxonomii. I samotných kategorií je ale pro naše
 účely trochu moc a následuje výčet jejich zkrácené a upravené
 verze[^16].
 
 ## Operátory aritmetiky
 
-Mezi nejzákladnější symboly, které v oboru matematiky rozeznáváme se
+Mezi nejzákladnější symboly, které v oboru matematiky rozeznáváme, se
 řadí aritmetické operátory. Do této kategorie patří ty nejpoužívanější
 symboly, se kterými se setkáváme i v ne-matematických prostředích každý
 den.
@@ -359,9 +359,10 @@ dvou symbolů, nebo jako denotace absence zápornosti[^17].
 Znaménko mínus značí opak sčítání -- odčítání. Stejně jako plus se
 používá k denotaci (tentokrát přítomnosti) zápornosti. Původ těchto
 znamének není zcela jasný^\[19\]^, ale jako jedno z prvních děl, které
-je zmiňuje jest *Algorismus proportionum* od Mikuláše Oresma. Znaménko +
-mělo v této době zkracovat latinské slovo pro spojku "a", *et*, které se
-zkracovalo jen na písmeno t, připomínající dnešní sčítací značku.
+je zmiňuje, jest *Algorismus proportionum* od Mikuláše Oresma.
+Znaménko + mělo v této době zkracovat latinské slovo pro spojku "a",
+*et*, které se zkracovalo jen na písmeno t, připomínající dnešní sčítací
+značku.
 
 ### ·, ×, ÷, :, a /
 
@@ -377,7 +378,7 @@ tečku, ale dvě tečky, které zároveň používám pro dělení.\"" (Cajori,
 1928/2013, s. 267)*
 
 Značky pro operaci opačnou násobení, dělení, je podstatně více. Možná
-první psaný zápis dělení používal značku zavřené jednoduché závorky -
+první psaný zápis dělení používal značku zavřené jednoduché závorky --
 )[^18], i když tento zápis se jako jeden z mála neuchytil. V Česku
 používáme převážně symbol **:**, který se pro dělení prvně objevil v
 roce 1684[^\[18\]^]{.mark}. Více světově známý symbol dělení,
@@ -422,7 +423,7 @@ se obecně značí znaménkem $\approx$, které značí, že si jsou dvě čísl
 skoro rovná[^31]. S aproximací souvisí i zaokrouhlování (≐), přičemž
 schválně snižujeme přesnost čísla pro jednodušší nakládání s ním[^32].
 
-Pokud si opravdu nevíte rady, a chcete, aby vaše rovnice platila za
+Pokud si opravdu nevíte rady a chcete, aby vaše rovnice platila za
 pomocí jenom jednoho znaku, můžete použít ⪑, či ⪒ (méně než, více než,
 nebo rovno a více než, méně než, nebo rovno).[^33]
 
@@ -510,7 +511,7 @@ pro některé nemožné zapsat jejich plný číselný rozvoj.
 
 ### π
 
-Ludolfovo číslo, zapisované miniskulou řeckého písmena pí[^40] vyjadřuje
+Ludolfovo číslo, zapisované minuskulou řeckého písmena pí[^40] vyjadřuje
 poměr obvodu kruhu k jeho průměru. Jeho přibližná hodnota v desítkové
 soustavě je 3,14 a proto se každého 14. března slaví mezinárodní den
 𝛑[^41]. Toto řecké písmeno bylo poprvé použito podle naší dnešní
@@ -622,7 +623,7 @@ V průběhu této práce jsme se zaměřili na matematickou notaci jako
 univerzální jazyk, který je základním prvkem vědy a inženýrství.
 Prozkoumali jsme historii matematických značek, dostali jsme se i k
 jejich kategorizaci a analýze. Dále jsme se zabývali digitálním
-zpracováním matematické notace a jejím nynějším šírením.
+zpracováním matematické notace a jejím nynějším šířením.
 
 Historie matematických značek nám ukázala, že matematická notace má
 hluboké kořeny, které sahají až do starověkých civilizací. V průběhu
@@ -658,9 +659,9 @@ Podle mých pozorování nebude v budoucnu velká potřeba symboly měnit nebo
 k nim přidávat. Možná se v oboru matematiky objeví nějaká zcela
 nezmapovaná věda, které koncepty si nedokážeme ani představit, ale
 myslím si, že pokud budeme do naší matematické sady značky přidávat,
-bude to proto, že budeme potřebovat velmi komplexní koncepty
-zabstrahovat (stejně jako jsme abstrahovali násobení ze sčítání a
-mocnění z násobení).
+bude to proto, že budeme potřebovat velmi komplexní koncepty abstrahovat
+(stejně jako jsme abstrahovali násobení ze sčítání a mocnění z
+násobení).
 
 ## Další čtení
 
@@ -680,19 +681,19 @@ ní nebyl prostor. Zde je z nich výtažek:
     > dále.
 
 -   Kniha *A History of Mathematical Notations* od Floriána Cajoriho,
-    > která v tomto oboru slouží jako jedna z těch nejklíčovějších, je
-    > zdroj s mnohem více symboly a jejich původy.
+    > která v tomto oboru slouží jako jedna z těch klíčových, je zdroj s
+    > mnohem více symboly a jejich původy.
 
 -   Matematická logika: vědní disciplína, která stojí na podstatě
     > matematiky a zdůvodňuje její základní pravidla. Symbolická logika
     > (která s matematickou logikou úzce souvisí), zmíněná v odstavci o
-    > knize *Principia Mathematica* má podle mého svou krásu a kromě
+    > knize *Principia Mathematica*, má podle mého svou krásu a kromě
     > toho, že je celá dostupná online, je i hezky shrnutá v podkapitole
     > videa od Dereka Mullera, [[Math\'s Fundamental
     > Flaw]{.underline}](https://youtu.be/HeQX2HjkcNo?t=693).
 
 -   Povídání o čínském zapisování čísel bylo enormně zkráceno. Na
-    > anglické Wikipedii je o něm rozsáhlý článek: [[Chinese numerals -
+    > anglické Wikipedii je o něm rozsáhlý článek: [[Chinese numerals --
     > Wikipedia]{.underline}](https://en.wikipedia.org/wiki/Chinese_numerals).
 
 -   V kapitole o [[Indii v synkopické
@@ -707,7 +708,7 @@ ní nebyl prostor. Zde je z nich výtažek:
 Na závěr bych taky chtěl vyjádřit můj osobní dík následujícím lidem, bez
 kterých by v této podobě práce nevznikla:
 
--   panu **Bc. Adriánovi Majorosovi** - vedoucímu práce, který poskytl
+-   panu **Bc. Adriánovi Majorosovi** -- vedoucímu práce, který poskytl
     > neocenitelné množství zpětné vazby a nápadů (je tu podle jednoho z
     > jeho nápadů i celá kapitola, [[Podobnosti se symboly teorie
     > množin]{.underline}](#podobnosti-se-symboly-teorie-množin))
@@ -853,8 +854,8 @@ kterých by v této podobě práce nevznikla:
     > 19:01, 9. 04. 2023 z
     > [[https://cs.wikipedia.org/w/index.php?title=LaTeX&oldid=19512927]{.underline}](https://cs.wikipedia.org/w/index.php?title=LaTeX&oldid=19512927).
 
-30. Conifold, & Brother, B. (2022, August 6). *mathematics - What is the
-    > origin of the negation ( ¬ ) operator from logic?* History of
+30. Conifold, & Brother, B. (2022, August 6). *mathematics -- What is
+    > the origin of the negation ( ¬ ) operator from logic?* History of
     > Science and Mathematics Stack Exchange.
     > [[https://hsm.stackexchange.com/a/14661]{.underline}](https://hsm.stackexchange.com/a/14661)
 
@@ -965,14 +966,14 @@ kterých by v této podobě práce nevznikla:
 
 > **Příloha 1 -- Počítací značky**
 >
-> ![](media/image5.png){width="6.101744313210848in"
+> ![](media/image2.png){width="6.101744313210848in"
 > height="1.5277777777777777in"}
 >
 > Benjamin D. Esham, Public domain, prostřednictvím Wikimedia Commons
 >
 > **Příloha 2 -- Sexagesimální soustava používaná v Mezopotámii**
 >
-> ![](media/image2.png){width="6.101744313210848in"
+> ![](media/image5.png){width="6.101744313210848in"
 > height="3.611111111111111in"}
 >
 > Josell7, [[CC BY-SA
@@ -984,7 +985,7 @@ kterých by v této podobě práce nevznikla:
 > ![undefined](media/image6.png){width="6.101744313210848in"
 > height="2.0277777777777777in"}
 >
-> By cmglee - Own work, CC BY-SA 4.0,
+> By cmglee -- Own work, CC BY-SA 4.0,
 > [[https://commons.wikimedia.org/w/index.php?curid=66097284]{.underline}](https://commons.wikimedia.org/w/index.php?curid=66097284)
 
 [^1]: Alespoň to jest jejich účel; ozdrojovaný text nespolehlivými
@@ -1027,7 +1028,7 @@ kterých by v této podobě práce nevznikla:
     nešířily, takže různé matematické koncepty byly objeveny na více
     místech nezávisle na sobě.
 
-[^13]: [[Jade Mirror of the Four Unknowns -
+[^13]: [[Jade Mirror of the Four Unknowns --
     Wikipedia]{.underline}](https://en.wikipedia.org/wiki/Jade_Mirror_of_the_Four_Unknowns)
 
 [^14]: Příklady různých důležitých poznatků z této doby jsou na
@@ -1071,8 +1072,8 @@ kterých by v této podobě práce nevznikla:
 [^25]: Tuto vodorovnou čáru, latinsky *vinculum* přidal odmocninám ve
     stejném díle jako formát pro moderní mocniny Descartes.
 
-[^26]: Pro podobné účely můžeme použít i znaménka "více, nebo méně
-    než" - ≷, a také "méně, nebo více než" - ≶.
+[^26]: Pro podobné účely můžeme použít i znaménka "více, nebo méně než"
+    -- ≷, a také "méně, nebo více než" -- ≶.
 
 [^27]: Sem se dají ještě zařadit symboly ≨ (ne méně, ale ne rovno) a ≩
     (ne více, ale ne rovno).
@@ -1112,15 +1113,15 @@ kterých by v této podobě práce nevznikla:
 
 [^38]: Lemniskáta je heslo, které se neobjevuje ve slovníku spisovného
     jazyka českého a je odvozeno od jeho použití na různých místech na
-    internetu - [[Bernoulliho
+    internetu -- [[Bernoulliho
     lemniskáta]{.underline}](http://fyzikalniolympiada.cz/cd/matematika/krivky/kuzelos/bernoulli.htm),
-    [[lemniskáta - ABZ.cz: slovník cizích
+    [[lemniskáta -- ABZ.cz: slovník cizích
     slov]{.underline}](https://slovnik-cizich-slov.abz.cz/web.php/slovo/lemniskata),
     [[Lemniskáta \| Slovník cizích
     slov]{.underline}](https://www.infoz.cz/lemniskata/).
 
 [^39]: Podle autora této práce také lemniskátě napomáhá, že když půjdete
-    po jejích křivkách, nikdy neskončíte - takže váš tah prstem či
+    po jejích křivkách, nikdy neskončíte -- takže váš tah prstem či
     tužkou bude nekonečný.
 
 [^40]: Jeho majuskula, 𝚷, se používá pro zápis součinu.
@@ -1132,13 +1133,13 @@ kterých by v této podobě práce nevznikla:
     používáme častěji nezdvojenou notaci.
 
 [^43]: Je důležité zmínit, že toto nejsou všechny číselné obory. O
-    dalších se můžete dočíst v článku [[Glossary of mathematical
-    symbols -
+    dalších se můžete dočíst v článku [[Glossary of mathematical symbols
+    --
     Wikipedia]{.underline}](https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols#Blackboard_bold)
 
 [^44]: K těm jednodušším slouží balíček mhchem a k těm složitějším
     balíček chemfig (mimo jiné)
 
 [^45]: Dokumentaci k balíčku circuitikz, který slouží k zápisu
-    elektrických obvodů, lze najít zde: [[CircuiTikZ 1.6.1 -
+    elektrických obvodů, lze najít zde: [[CircuiTikZ 1.6.1 --
     manual]{.underline}](https://texdoc.org/serve/circuitikz/0)
