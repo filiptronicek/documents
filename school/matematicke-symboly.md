@@ -36,7 +36,7 @@ Filip Troníček
 >
 > [2.2 Synkopická fáze 6](#synkopická-fáze)
 >
-> [2.2.1 Al-Khwārizmī a algebra 7](#al-khwārizmī-a-algebra)
+> [2.2.1 Al-Chorezmí a algebra 7](#al-chorezmí-a-algebra)
 >
 > [2.2.2 Indie a číslice 7](#indie-a-číslice)
 >
@@ -45,62 +45,62 @@ Filip Troníček
 >
 > [2.2.4 Modernější Řecko 7](#modernější-řecko)
 >
-> [2.2.5 Čínský zápis 7](#čínský-zápis)
+> [2.2.5 Čínský zápis 8](#čínský-zápis)
 >
 > [2.3 Symbolická fáze 8](#symbolická-fáze)
 
-[3 Analýza různých symbolů 9](#analýza-různých-symbolů)
+[3 Analýza různých symbolů 10](#analýza-různých-symbolů)
 
-> [3.1 Operátory aritmetiky 9](#operátory-aritmetiky)
+> [3.1 Operátory aritmetiky 10](#operátory-aritmetiky)
 >
-> [3.1.1 + a - 9](#a--)
+> [3.1.1 + a - 10](#a--)
 >
-> [3.1.2 ·, ×, ÷, :, a / 9](#a)
+> [3.1.2 ·, ×, ÷, :, a / 10](#a)
 >
-> [3.1.3 Ostatní aritmetické značky 10](#ostatní-aritmetické-značky)
+> [3.1.3 Ostatní aritmetické značky 11](#ostatní-aritmetické-značky)
 >
-> [3.2 Značky číselných vztahů 10](#značky-číselných-vztahů)
+> [3.2 Značky číselných vztahů 11](#značky-číselných-vztahů)
 >
-> [3.3 Značky logiky 11](#značky-logiky)
+> [3.3 Značky logiky 12](#značky-logiky)
 >
 > [3.3.1 Podobnosti se symboly teorie množin
-> 11](#podobnosti-se-symboly-teorie-množin)
+> 12](#podobnosti-se-symboly-teorie-množin)
 >
-> [3.3.2 Ostatní logické symboly 12](#ostatní-logické-symboly)
+> [3.3.2 Ostatní logické symboly 13](#ostatní-logické-symboly)
 >
-> [3.4 Ostatní značky 12](#ostatní-značky)
+> [3.4 Ostatní značky 13](#ostatní-značky)
 >
-> [3.5 Matematické konstanty 13](#matematické-konstanty)
+> [3.5 Matematické konstanty 14](#matematické-konstanty)
 >
-> [3.5.1 π 13](#π)
+> [3.5.1 π 14](#π)
 >
-> [3.5.2 e 13](#e)
+> [3.5.2 e 14](#e)
 >
-> [3.5.3 ɸ 14](#ɸ)
+> [3.5.3 ɸ 15](#ɸ)
 >
-> [3.6 Znaky číselných oborů 14](#znaky-číselných-oborů)
+> [3.6 Znaky číselných oborů 15](#znaky-číselných-oborů)
 
-[4 LaTeX 14](#latex-latech)
+[4 LaTeX 16](#latex-latech)
 
-> [4.1 Původ a účel LaTeXu 15](#původ-a-účel-latexu)
+> [4.1 Původ a účel LaTeXu 16](#původ-a-účel-latexu)
 >
-> [4.2 Vlastnosti LaTeXu 15](#vlastnosti-latexu)
+> [4.2 Vlastnosti LaTeXu 16](#vlastnosti-latexu)
 >
 > [4.3 Výhody použití LaTeXu pro matematický zápis
-> 16](#výhody-použití-latexu-pro-matematický-zápis)
+> 17](#výhody-použití-latexu-pro-matematický-zápis)
 
-[5 Závěr 17](#závěr)
+[5 Závěr 18](#závěr)
 
-> [5.1 Budoucnost značení matematiky 17](#budoucnost-značení-matematiky)
+> [5.1 Budoucnost značení matematiky 18](#budoucnost-značení-matematiky)
 >
-> [5.2 Další čtení 17](#další-čtení)
+> [5.2 Další čtení 19](#další-čtení)
 >
-> [5.3 Poděkování 18](#poděkování)
+> [5.3 Poděkování 19](#poděkování)
 
 [6 Seznam použitých informačních zdrojů
-18](#seznam-použitých-informačních-zdrojů)
+20](#seznam-použitých-informačních-zdrojů)
 
-[7 Seznam příloh 26](#seznam-příloh)
+[7 Seznam příloh 29](#seznam-příloh)
 
 #   {#section .unnumbered}
 
@@ -154,7 +154,7 @@ praktických problémů: například geometrie začíná v počítání rozměr�
 vzdáleností a algebra nachází své počátky v aritmetických
 problémech[^4]^\[3\]\[7\]^.
 
-Později v této době se matematika i začala zapisovat. Začátky zápisu
+Později v této době se matematika také začala zapisovat. Začátky zápisu
 čísel vůbec přiřazujeme rytí značek do kamene či dřeva, kde každá z
 čárek představovala jednu jednotku. Tato praktika byla používána v mnoha
 kulturách a byla napříč nimi velmi podobná[^5] - to zajisté přispívá k
@@ -168,15 +168,15 @@ ve vězení již strávili). ^\[příloha\ 1\]^
 Asi 2000 let př. n. l. začali obyvatelé tamější Mezopotámie zapisovat
 číslice tzv. klínopisem[^6]. Tento systém používá místo našich
 tradičních desíti číslic jenom dvě:
-![](media/image2.png){width="0.22058836395450568in"
+![](media/image1.png){width="0.22058836395450568in"
 height="0.20833333333333334in"}pro zápis jednotek a
-![](media/image1.png){width="0.22237423447069116in"
+![](media/image3.png){width="0.22237423447069116in"
 height="0.20833333333333334in"} pro zápis desítek, což dělá jejich zápis
 podstatně jednodušší na naučení^\[11\]\[12\]^. Pomocí těchto dvou číslic
-dokážeme zapsat číslo až 60^\[příloha\ 2\]^ (sexagesimální soustava),
-přičemž se dají velmi jednoduše zapsat i čísla mnohem větší: pokud si
-čísla nějak oddělíme (čárkou, mezerou apod.), můžeme členy spočítat
-následujícím vzorcem:
+dokážeme zapsat číslo až 60^\[příloha\ 2\]^ (sexagesimální neboli
+šedesátková soustava), přičemž se dají velmi jednoduše zapsat i čísla
+mnohem větší: pokud si čísla nějak oddělíme (čárkou, mezerou apod.),
+můžeme členy spočítat následujícím vzorcem:
 
 $d_{i} \times 60^{i}$
 
@@ -262,14 +262,14 @@ které byly inspirovány znalostmi získanými z arabského světa a Indie.
 Matematický vývoj probíhal zejména v oblasti algebry, trigonometrie a
 geometrie.
 
-### Al-Khwārizmī a algebra
+### Al-Chorezmí a algebra
 
 Perský matematik a astronom Al-Chorezmí (780--850 n.l.) představuje
 jednu z klíčových postav synkopické fáze. Jeho dílo *[Hisáb al-džabr
 wa-l-muqábala]{.mark}* se stalo základem pro vývoj algebry a přineslo
 první systematické řešení lineárních a kvadratických rovnic. Slovo
 \"algebra\" je odvozeno od arabského slova \"al-jabr\", které znamená
-\"řešení\" nebo \"spojení\".
+\"řešení\" nebo \"spojení\".^\[54\]^
 
 ### Indie a číslice
 
@@ -399,7 +399,7 @@ Rudolff použil poprvé znak $$, bylo to bez vodorovné čáry nad
 odmocninovým obsahem[^25]^\[18\]^.
 
 Znaménko pro "plus mínus",
-[![](media/image5.png){width="0.1111111111111111in"
+[![](media/image4.png){width="0.1111111111111111in"
 height="0.1111111111111111in"}](https://www.codecogs.com/eqnedit.php?latex=%5Cpm#0),
 vytvořil William Oughtred pro jeho spis *Clavis Mathematicae (1631)*.
 
@@ -503,7 +503,7 @@ Pokud chceme znázornit, že prvek náleží nebo nenáleží nějaké množině
 používáme symbol ∈ a jeho opak ∉, které se používají od konce 19.
 století.^\[26\]^
 
-## Matematické konstanty
+## Matematické konstanty 
 
 Někdy reprezentujeme i speciální čísla matematiky symboly, protože je
 pro některé nemožné zapsat jejich plný číselný rozvoj.
@@ -540,7 +540,7 @@ uvádějí, že se \"fí\" začalo používat na počátku 20. století na poče
 řeckého sochaře Feidia, který zlatý řez hojně používal ve svých
 dílech.^\[44\]\[46\]^
 
-## Znaky číselných oborů
+## Znaky číselných oborů 
 
 I když čísla byla označována již dříve, od konce 19. století používáme
 naše moderní jednopísmenné zkratky pro různé číselné obory, psané
@@ -618,14 +618,39 @@ d.  Spolupráce: Soubory LaTeX jsou prosté textové dokumenty, což
 
 # Závěr
 
-Závěr přehledně shrnuje hlavní myšlenku a zjištěné skutečnosti práce,
-případně navrhuje další možnosti práce s tématem.
+V průběhu této práce jsme se zaměřili na matematickou notaci jako
+univerzální jazyk, který je základním prvkem vědy a inženýrství.
+Prozkoumali jsme historii matematických značek, dostali jsme se i k
+jejich kategorizaci a analýze. Dále jsme se zabývali digitálním
+zpracováním matematické notace a jejím nynějším šírením.
 
-V této práci byla úspěšně popsána historie zápisu matematiky, včetně
-dodatku o moderních užitích zápisu (viz. [[kap.
-LaTeX]{.underline}](#latex-latech)). Práce přiblížila, proč v matematice
-používáme právě ty symboly, které používáme a nadzvihla i důležitá jména
-matematiků, kteří za nimi stojí.
+Historie matematických značek nám ukázala, že matematická notace má
+hluboké kořeny, které sahají až do starověkých civilizací. V průběhu
+staletí se matematická notace vyvíjela a zpřesňovala, což vedlo k její
+dnešní formě, která je celosvětově univerzální a exaktní.
+
+Kategorizace matematických značek nám poskytla ucelený přehled o různých
+typech symbolů, které se používají v matematickém zápisu. Ukázalo se, že
+matematická notace je velmi rozmanitá, ale zároveň logicky uspořádaná a
+ucelená.
+
+Analýza vybraných matematických značek přinesla vhled do důležitých
+konceptů, které formují základy matematiky a vědy. Zdůraznila také,
+jakým způsobem matematická notace zjednodušuje a zefektivňuje komunikaci
+vědeckých a matematických myšlenek.
+
+Digitální zpracování matematické notace a její distribuce
+prostřednictvím moderních médií umožňuje rychlejší a efektivnější přenos
+informací. To má zásadní dopad na vývoj vědy, technologií a celkového
+pokroku lidské civilizace.
+
+V konečném důsledku je matematická notace základním kamenem vědecké
+komunikace a hraje klíčovou roli ve všech oborech, které využívají
+matematiku. Porozumění a zvládnutí matematické notace je tedy nezbytné
+pro úspěch ve vědeckých a inženýrských disciplínách. Osobně doufám, že
+tato práce poskytla čtenáři ucelený a zajímavý vhled do světa
+matematických značek a jejich významu pro komunikaci a pokrok v různých
+oblastech lidského poznání.
 
 ## Budoucnost značení matematiky
 
@@ -669,6 +694,13 @@ ní nebyl prostor. Zde je z nich výtažek:
 -   Povídání o čínském zapisování čísel bylo enormně zkráceno. Na
     > anglické Wikipedii je o něm rozsáhlý článek: [[Chinese numerals -
     > Wikipedia]{.underline}](https://en.wikipedia.org/wiki/Chinese_numerals).
+
+-   V kapitole o [[Indii v synkopické
+    > fázi]{.underline}](#indie-a-číslice) je zmínka o začátcích
+    > hindsko-arabských číslic. Ideálně by toho o nich zde bylo více,
+    > ale moc hezký článek o něm má česká Wikipedie: [[Hindsko-arabská
+    > číselná
+    > soustava]{.underline}](https://cs.wikipedia.org/wiki/Hindsko-arabsk%C3%A1_%C4%8D%C3%ADseln%C3%A1_soustava).
 
 ## Poděkování
 
@@ -925,18 +957,22 @@ kterých by v této podobě práce nevznikla:
     > [[https://monoskop.org/images/2/21/Cajori_Florian_A_History_of_Mathematical_Notations_2_Vols.pdf]{.underline}](https://monoskop.org/images/2/21/Cajori_Florian_A_History_of_Mathematical_Notations_2_Vols.pdf)
     > (Original work published 1928)
 
+54. Al-Chorezmí. (24. 01. 2023). *Wikipedie: Otevřená encyklopedie*.
+    > Získáno 16:29, 17. 04. 2023 z
+    > [[https://cs.wikipedia.org/w/index.php?title=Al-Chorezm%C3%AD&oldid=22377040]{.underline}](https://cs.wikipedia.org/w/index.php?title=Al-Chorezm%C3%AD&oldid=22377040).
+
 # Seznam příloh
 
 > **Příloha 1 -- Počítací značky**
 >
-> ![](media/image3.png){width="6.101744313210848in"
+> ![](media/image5.png){width="6.101744313210848in"
 > height="1.5277777777777777in"}
 >
 > Benjamin D. Esham, Public domain, prostřednictvím Wikimedia Commons
 >
 > **Příloha 2 -- Sexagesimální soustava používaná v Mezopotámii**
 >
-> ![](media/image4.png){width="6.101744313210848in"
+> ![](media/image2.png){width="6.101744313210848in"
 > height="3.611111111111111in"}
 >
 > Josell7, [[CC BY-SA
